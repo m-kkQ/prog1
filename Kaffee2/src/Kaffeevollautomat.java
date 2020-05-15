@@ -1,4 +1,3 @@
-
 public class Kaffeevollautomat {
 	// Eigenschaften oder Felder oder Attribute
 	// sind synonyme 
