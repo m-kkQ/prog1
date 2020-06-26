@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-
 import javafx.application.Application;
 import javafx.scene.Node;
 import javafx.scene.Scene;
@@ -155,8 +154,8 @@ public class EclipseFX extends Application {
 
 		Button btnSave = new Button("Save as..");
 		btnSave.setOnAction(ev -> {
-			lblStatus.setText("Saved as " + workingFile.getAbsolutePath());
 			chooseFileAndSave();
+			lblStatus.setText("Saved as " + workingFile.getAbsolutePath());
 		});
 
 		Button btnSaveAs = new Button("Save");
